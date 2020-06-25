@@ -1,0 +1,160 @@
+#banner img{
+    width:100%;
+    height: auto;
+    background-size: cover;
+    filter: blur(1.75px);
+    -webkit-filter: blur(1.75px);
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  .signatures{
+    font-weight: bold;
+  }
+  .nav-link{
+    color: #50248a;
+  }
+  
+  h1{
+    color: #50248a;
+    text-align: center;
+    font-family: 'Irish Grover', cursive;
+  }
+  h3{
+    font-family: 'Irish Grover', cursive;
+
+  }
+  #desc{
+    margin-left: 12%;
+    float: left;
+    width: 500px;
+    padding: 10px;
+  }
+  #featured{
+    border-radius: 3%;
+    padding:5px;
+    width: 300px;
+    height: auto;
+  }
+  #featuredItem{
+    align-content: center;
+    }
+  
+  #intro{
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    text-shadow: 1px 1px white;
+    font-size: 20px;
+    width: 650px;
+  }
+  a:hover{
+    color: #e9d434;
+  }
+  .btn:hover{
+      background-color: #e9d434;
+  }
+  .btn{
+    background-color: #50248a;
+    color: white;
+    border-color: #50248a;
+  }
+  
+  .card-columns{
+    text-align: center;
+  }
+  .card-img-top{
+    border-radius: 3%;
+  }
+  footer{
+    background-color: #50248a;
+    color: white;
+  }
+  #contact{
+    float: right;
+    margin-left: 40%;
+  }
+  .fa-instagram {
+    color: white;
+  }
+  .fa-facebook {
+    color: white;
+  }
+  .fa-google{
+    color: white;
+  }
+  .fa {
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .who{
+    float: right;
+    margin-right: 100px;
+  }
+  #put{
+    margin-left: 80px;
+    font-weight: bold;
+  }
+
+  /* gallery */
+  /* profile cards */
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+    border-radius: 2%;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 3%;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 3%;
+  }
+  
+  .flip-card-front {
+    background-color: #50248a;
+    color: black;
+    border-radius: 3%;
+  }
+  
+  .flip-card-back {
+    background-color: #50248a;
+    opacity: 1;
+    color: white;
+    text-align: center;
+    transform: rotateY(180deg);
+    border-radius: 3%;
+  }
+  .flip-card-back h3{
+    margin-top: 50%;
+  }
+
+  .vl{
+    height: 500px;
+    border-color: #50248a;
+    border-left: 3px #50248a;
+  }
