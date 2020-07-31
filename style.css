@@ -1,12 +1,46 @@
-#banner img{
-    width:100%;
-    height: auto;
-    background-size: cover;
-    filter: blur(1.75px);
-    -webkit-filter: blur(1.75px);
+.header1{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left,rgba(0,0,0,.5),rgba(0,0,0,.05)),
+    url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    animation: background 3s ease;
+}
+  h2{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+	  font-size: 30px;
+    color: #fff;
+    text-shadow: 3px 4px black;
+	  font-family: 'Irish Grover', cursive;
+  }
+  .containimage{
+    height:inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+  }
+  #slide{
+    display: none;
+  }
+  .headercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #free{
+    text-align: center;
+    font-size: large;
   }
   body{
     font-family: 'Roboto', sans-serif;
+    font-size: larger;
   }
   .signatures{
     font-weight: bold;
@@ -77,20 +111,69 @@
     float: right;
     margin-left: 40%;
   }
+
   .fa-instagram {
-    color: white;
+    color: #50248a;
+    background: white;
+    border-radius: 50%;
   }
   .fa-facebook {
-    color: white;
+    color: #50248a;
+    background: white;
+    border-radius: 50%;
   }
   .fa-google{
+    color: #50248a;
+    font-size: xx-large;
+    background: white;
+    border-radius: 50%;
+  }
+  .fa{
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    width: 70px;
+    padding: 20px;
+    margin: 5px 2px;
+    text-decoration: none;
+}
+.fa:hover{
+    background-color: #e9d434;
+    text-decoration: none;
+    color: #50248a;
+}
+/*
+.fa-facebook {
+    background: #00A6FF;
     color: white;
   }
+  
+  .fa-twitter {
+    background: #00A6FF;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #00A6FF;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #00A6FF;
+    color: white;
+  } */
   .fa {
-    font-size: 100px;
+    /* font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; */
+    padding: 20px;
+    font-size: 50px;
     width: 50px;
     text-align: center;
     text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
   }
   .who{
     float: right;
